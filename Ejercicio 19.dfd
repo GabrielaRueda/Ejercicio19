@@ -1,0 +1,90 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+73
+'Podria ingresar la cantidad de horas que usted a trabajado en la semana'
+5
+1
+1
+h
+4
+1
+44
+'¿Cual es el precio por hora de tu trabajo?'
+5
+1
+1
+p
+6
+1
+2
+pf
+4
+h* p
+7
+0
+1
+15
+h>= 0 and h< 41
+7
+0
+1
+17
+h>= 41 and h<= 45
+7
+0
+1
+16
+h>=46 and h<=50 
+4
+1
+57
+'No, no es posible laborar mas de 50 horas a la semana. '
+13
+6
+3
+2
+hd
+1
+5
+2
+ht
+5
+h- 45
+2
+pf
+35
+(p* 40) + (hd* 2 * p) + (ht* 3 * p)
+4
+1
+80
+'Ah conseguido un aumento del tiple, entoces se le va a pagar: $', pf, ' pesos.'
+13
+13
+6
+2
+2
+hd
+5
+h- 40
+2
+pf
+23
+(40 * p) + (hd * 2 * p)
+4
+1
+86
+'Por laborar más horas se le pagara el doble, por lo que se le dara: $', pf, ' pesos.'
+13
+13
+4
+1
+55
+'El pago que tienes que recibir es de $ ', pf ,' pesos'
+13
+1
